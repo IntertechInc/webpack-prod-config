@@ -18,22 +18,27 @@ The **-g** flag makes installs them globally so they are available in your PATH
 1. Change directory to the root of the code
 2. Install the comonents required by the app
 ```
-npm install```
+npm install
+```
 
 ###Create the DEV bundle the App (2 options)
 1. Using `webpack` - uses `webpack.config.js` by default
 ```
-webpack```
+webpack
+```
 2. Using `webpack-dev-server` to bundle and host
 ```
-webpack-dev-server```
+webpack-dev-server
+```
 `webpack-dev-server` hosts your app locally. Browse to http://localhost:8080/webpack-dev-server or http://localhost:8080/
 
 ###Create the PROD bundle the App (2 options)
 1. Using `webpack` specifying production configuration
 ```
-webpack --config webpack-prod.config.js```
+webpack --config webpack-prod.config.js
+```
 
 2. Using `webpack-dev-server` to bundle and host specifying production configuration
 ```
-webpack-dev-server --config webpack-prod.config.js```
+webpack-dev-server --config webpack-prod.config.js
+```
